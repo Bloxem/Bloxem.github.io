@@ -1,0 +1,65 @@
+/***
+this css has the general header/footer layout stuff
+***/
+
+/**
+general
+**/
+html,body{
+	background: #5a5a5a;
+	color: #fff;
+	font: 16px/1.5 'Sailec', Arial, sans-serif;
+	width:100%;height:100%;
+}
+body {
+	display: flex;
+  flex-direction: column;
+}
+
+
+/**
+header
+**/
+header {
+	/* style */
+	background: #9a370a;
+	color: #fff;
+	text-align: center;
+	/* layout */
+	height: 44px;
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-between;
+	 background-image: linear-gradient(to right, Darkblue , white);
+}
+#logo {
+	margin-top: 4px;
+	height: 35px;
+}
+
+
+
+
+
+/**
+footer
+**/
+footer{
+	background: #ffffff;
+	background-image: linear-gradient(to right, Darkblue , white);
+	margin-top: auto; /* footer at the foot */
+	display: flex;
+	justify-content: space-between
+
+}
+footer nav { margin:5px 10px}
+/* links */
+footer a {
+	color: #fff;
+	text-decoration:none;
+	margin: 0 10px;
+	font-weight: bold;
+}
+footer a:hover {
+	text-decoration: underline;
+}
